@@ -1,0 +1,15 @@
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O        PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.08%     9.809MiB / 4.15GiB   0.23%     996kB / 132kB     3.46MB / 500kB   5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.09%     16.88MiB / 4.15GiB   0.40%     8.31MB / 75.2MB   9.75MB / 496kB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O        PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.09%     9.809MiB / 4.15GiB   0.23%     997kB / 132kB     3.46MB / 500kB   5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.12%     16.88MiB / 4.15GiB   0.40%     8.31MB / 75.2MB   9.75MB / 496kB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O        PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.14%     9.809MiB / 4.15GiB   0.23%     997kB / 132kB     3.46MB / 500kB   5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.14%     16.87MiB / 4.15GiB   0.40%     8.31MB / 75.2MB   9.75MB / 496kB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O        PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.13%     9.809MiB / 4.15GiB   0.23%     997kB / 133kB     3.46MB / 500kB   5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.12%     16.88MiB / 4.15GiB   0.40%     8.31MB / 75.2MB   9.75MB / 496kB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O           BLOCK I/O        PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.13%     10.09MiB / 4.15GiB   0.24%     1.25MB / 148kB    3.46MB / 500kB   5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         61.14%    17.16MiB / 4.15GiB   0.40%     10.3MB / 94.5MB   9.75MB / 496kB   5

@@ -1,0 +1,18 @@
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.15%     10.44MiB / 4.15GiB   0.25%     3.12MB / 328kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.14%     17.55MiB / 4.15GiB   0.41%     29MB / 276MB     9.75MB / 1.19MB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.15%     10.44MiB / 4.15GiB   0.25%     3.12MB / 328kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.14%     17.55MiB / 4.15GiB   0.41%     29MB / 276MB     9.75MB / 1.19MB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.16%     10.44MiB / 4.15GiB   0.25%     3.12MB / 329kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.18%     17.27MiB / 4.15GiB   0.41%     29MB / 276MB     9.75MB / 1.19MB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.17%     10.44MiB / 4.15GiB   0.25%     3.12MB / 329kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.15%     17.27MiB / 4.15GiB   0.41%     29MB / 276MB     9.75MB / 1.19MB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.11%     10.46MiB / 4.15GiB   0.25%     3.36MB / 342kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         72.20%    18.12MiB / 4.15GiB   0.43%     31.1MB / 296MB   9.75MB / 1.19MB   5
+CONTAINER ID   NAME                                           CPU %     MEM USAGE / LIMIT    MEM %     NET I/O          BLOCK I/O         PIDS
+baddeaf694e5   esle-redis-slave.1.h0au4y44fymp3uylu2s2iuq9w   0.12%     10.46MiB / 4.15GiB   0.25%     3.36MB / 342kB   3.46MB / 1.2MB    5
+f8cf86b4be97   esle-redis.1.pl9xqipzl54xlc4x5yobt2b3i         0.15%     18.12MiB / 4.15GiB   0.43%     31.1MB / 296MB   9.75MB / 1.19MB   5
