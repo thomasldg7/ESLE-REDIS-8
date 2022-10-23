@@ -3,10 +3,10 @@ set output './cpu_memory_usage.pdf'
 
 set xlabel 'Threads'
 set ylabel 'CPU usage (%)'
-set title 'Workload (Read Operations - Latency)'
-plot [0:105][0:250]'cpu_usage.dat' using ($1):($2) title 'cpu usage' with linespoints
+set title 'CPU usage relative to the number of threads'
+plot [0:105][0:100]'cpu_usage.dat' using ($1):($2) title 'cpu usage' with linespoints
 
 set xlabel 'Threads'
-set ylabel 'Memory usage (MB)'
-set title 'Workload (Write Operations - Latency)'
-plot [0:105][0:30]'memory_usage.dat' using ($1):($2) title 'memory usage' with linespoints
+set ylabel 'Memory usage (%)'
+set title 'Memory usage relative to the number of threads'
+plot [0:105][0:1]'memory_usage.dat' using ($1):(($2/4150)*100) title 'memory usage' with linespoints
