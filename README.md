@@ -72,6 +72,9 @@ Enter in one of the container
 Create the cluster
 `redis-cli --cluster create 127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002 127.0.0.1:7003 127.0.0.1:7004 127.0.0.1:7005 --cluster-replicas 1`
 
+#### Run the experiments
+Run the experiment with _redis-benchmark-auto.sh_ file
+
 ## Automatisation files
 - ycsb-benchmark-auto.sh : YCSB benchmark for 1 to 101 threads
 - redis-benchmark-auto.sh : redi-benchmark for 1 to 101 threads, for GET and SET requests and 1000 requests, with pipelining to 15
