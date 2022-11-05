@@ -7,7 +7,7 @@
 
 ### Deploy a Redis service
 - Create a network `docker network create --driver overlay esle-redis`
-- Create a volume docker volume create esle-grp8`
+- Create a volume `docker volume create esle-grp8`
 - Create the service `docker service create --name esle-redis --network=esle-redis -p 6379:6379 redis:latest`
 - Install *redis-cli* on the host https://redis.io/docs/getting-started/installation/install-redis-on-linux/
 
