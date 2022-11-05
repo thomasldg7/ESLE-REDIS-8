@@ -57,6 +57,21 @@ With the tool _esle-usl-1.0-SNAPSHOT.jar_ and the results of our previous experi
 
 And we can plot the theoretical throughput _throughput.pdf_
 
-## Stages pipeline
+## Experimental design
+### Deploy a Redis Cluster
 
-## Bottleneck identification
+`mkdir 7000 7001 7002 7003 7005 7005`
+inside each, create a `redis.conf` file
+
+For each of the 6, create the container:
+`docker run -v /root/7000/redis.conf:/usr/local/etc/redis/redis.conf -d --net=host --name myredis-0 redis redis-server /usr/local/etc/redis/redis.conf`
+
+Enter in one of the container
+`docker exec -it myredis-1 sh`
+
+Create the cluster
+`redis-cli --cluster create 127.0.0.1:7000 127.0.0.1:7001 127.0.0.1:7002 127.0.0.1:7003 127.0.0.1:7004 127.0.0.1:7005 --cluster-replicas 1`
+
+
+
+
