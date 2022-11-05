@@ -30,7 +30,7 @@ Default: 50 clients (parallel connections) / Data size of 3 bytes for SET,GET re
 Our results can be seen in the file _simple_benchmark.txt_ and the plot _simple_benchmark.pdf_
 
 ### Benchmarking with YCSB workload
-Using the benchmarking database YCSB tool, we analysed the CPU and memory usage and then the Throughput and Latency
+Using the benchmarking database [YCSB tool](https://github.com/brianfrankcooper/YCSB), we analysed the CPU and memory usage and then the Throughput and Latency
 #### CPU and memory usage
 We launched a YCSB running test with the following command for 5/20/50/70/100 threads <br/>
 
